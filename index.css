@@ -72,18 +72,25 @@ body{
 .title-text>h2{
     position: absolute;
     left: 150px;
-    top: 90px;
+    top: 120px;
     z-index: 10;
+    font-family: "Inter", sans-serif;
     font-size: var(--font-larger);
     font-weight: bolder;
     line-height: 84px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, .7), rgba(255, 255, 255, .5));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
 }
 
 .title-text>p{
     position: absolute;
     color: #7D7E80;    ;
     left: 150px;
-    top: 325px;
+    top: 355px;
     z-index: 10;
     font-size: var(--font-large);
     line-height: 33px;
@@ -96,11 +103,11 @@ body{
 
     position: absolute;
     max-width: 1552px;
-    width: 70vw;
+    width: 76vw;
     z-index: 2;
-    top: -70px;
+    top: -50px;
     left: 600px;
-    height: 628px;
+    height: auto;
     
 }
 
@@ -112,9 +119,31 @@ body{
     border-radius: 14px;
     font-size: 20px;
     padding: 16px 32px;
-    top: 400px;
+    top: 430px;
     left: 150px;
     text-align: center;
     cursor: pointer;
     border: none;
+}
+
+.bg-blur{
+    height: 500px;
+    width: 200px;
+    border-radius: 50%;
+    filter:blur(100px);
+    position: absolute;
+
+}
+
+.left{
+    background-color: #871859;
+    top: 30px;
+    left: 900px;
+}
+
+.right{
+    background-color: #24396D;
+    top: 30px;
+    right: 2%;
+    width: 500px;;
 }
