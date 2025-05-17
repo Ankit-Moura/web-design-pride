@@ -21,7 +21,7 @@ html{
 
 body{
     background-color: var(--background-color);
-    overflow:hidden;
+    overflow-x:hidden;
 }
 
 .header{
@@ -67,6 +67,8 @@ body{
 
 .title{
     position: relative;
+    height: 100vh;
+    padding-bottom: 24px;
 }
 
 .title-text>h2{
@@ -88,7 +90,7 @@ body{
 
 .title-text>p{
     position: absolute;
-    color: #7D7E80;    ;
+    color: #7D7E80;
     left: 150px;
     top: 355px;
     z-index: 10;
@@ -146,4 +148,23 @@ body{
     top: 30px;
     right: 2%;
     width: 500px;;
+}
+
+.page2{
+    height: 100vh;
+    
+}
+
+.page2 h2{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 54px;
+    margin-bottom: 28px;
+}
+
+.page2 h3{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #7D7E80;
 }
